@@ -1,0 +1,26 @@
+#conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element-1 
+{
+
+    background-color: blue;
+    border: solid black;     
+    padding: 50px;
+}
+.element-2
+{
+	background-color: red;
+	border: solid;
+	padding: 50px;
+	
+} 
+.element-3
+{
+	background-color: green;
+	border: solid black;
+	padding: 50px;
+}
