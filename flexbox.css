@@ -1,19 +1,19 @@
 #conteneur
 {
-    display: flex;
-    flex-wrap: wrap; 
+	display: flex;
+	flex-wrap: wrap; 
 }
 .element-1 
 {
 	background: url("scubatocat.png")  no-repeat center ;
-    border: solid black;     
-    padding: 200px;
-    margin: auto;
-    order: 1;
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    z-index: 1;
+	border: solid black;     
+	padding: 200px;
+	margin: auto;
+	order: 1;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	z-index: 1;
 }
 .element-2
 {
@@ -23,9 +23,9 @@
 	margin: auto;
 	order: 2;
 	position: absolute;
-    left:  30px;
-    bottom: 30px;
-    z-index: 2;
+	left:  30px;
+	bottom: 30px;
+	z-index: 2;
 } 
 .element-3
 {
@@ -36,6 +36,25 @@
 	order: 3;
 	position: absolute;
 	right: 450px;
-    top: 80px;
-    z-index: 3;
+	top: 80px;
+	z-index: 3;
+	opacity: 0.2;
+}
+p
+{
+	font-family: sprat,time new roman;
+	color:maroon;
+	text-align: center;
+	box-shadow: 6px 6px 6px;
+	z-index: 4;
+}
+
+@font-face
+{
+	font-family: "sprat";
+	src:url("Sprat_Variable.ttf"),
+	url("Sprat-CondensedBold.otf");
+	font-weight: normal;
+	font-style: normal;
+	
 }
