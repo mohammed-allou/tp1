@@ -58,3 +58,15 @@ p
 	font-style: normal;
 	
 }
+#logo img
+{
+    width: 59px;
+    height: 60px;
+    border:solid;
+}
+h1
+{
+	font-family: sprat;
+	text-align: center;
+	text-transform : uppercase;
+}
