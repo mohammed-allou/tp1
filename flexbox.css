@@ -5,25 +5,37 @@
 }
 .element-1 
 {
-	background-color: blue;
+	background: url("scubatocat.png")  no-repeat center ;
     border: solid black;     
-    padding: 100px;
+    padding: 150px;
     margin: auto;
     order: 1;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 1;
 }
 .element-2
 {
-	background-color: red;
+	background: url("inspectocat.jpg") no-repeat center;
 	border: solid black;
-	padding: 100px;
+	padding: 150px;
 	margin: auto;
 	order: 2;
+	position: absolute;
+    left:  30px;
+    bottom: 30px;
+    z-index: 2;
 } 
 .element-3
 {
-	background-color: green;
+	background: url("octoliberty.png") no-repeat center;
 	border: solid black;
-	padding: 100px;
+	padding: 150px;
 	margin: auto;
 	order: 3;
+	position: relative;
+	left: 100px;
+    top: 10px;
+    z-index: 3;
 }
