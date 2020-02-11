@@ -5,32 +5,32 @@
 }*/
 .element-1 
 {
-	background: url("scubatocat.png")  no-repeat center ;
-	padding: 100px;
+	background: url("scubatocat-mini.png")  no-repeat center ;
+	padding: 120px;
 	position: fixed;
-	right: 30px;
+	right: 50px;
 	bottom: 20px;
 	}
 .element-2
 {
-	background: url("inspectocat.jpg") no-repeat center;
-	padding: 100px;
+	background: url("inspectocat-mini.jpg") no-repeat center;
+	padding: 120px;
 	position: absolute;
-	right: 30px;
-	bottom: 250px;
+	right: 50px;
+	bottom: 280px;
 } 
 .element-3
 {
-	background: url("octoliberty.png") no-repeat center;
-	padding: 100px;
+	background: url("foundingfather_v2.png") no-repeat center;
+	padding: 120px;
 	position: absolute;
 	left: 50px;
-	bottom: 240px;
+	bottom: 300px;
 }
 .Elément
 {
-	background: url("plumber.jpg") no-repeat center;
-	padding: 100px;
+	background: url("plumber-mini.jpg") no-repeat center;
+	padding: 120px;
 	position: absolute;
 	left:50px;
 	bottom:20px;	
@@ -44,7 +44,7 @@ p
 	width: 350px;
 	position: absolute;
 	left: 450px;
-	top: 250px;
+	top: 50px;
 	}
 
 @font-face
@@ -58,15 +58,18 @@ p
 }
 #logo img
 {
-    width: 59px;
+    width: 70px;
     height: 60px;
     
 }
 h1
 {
 	font-family: sprat;
-	text-align: center;
+	text-align:center;
 	text-transform : uppercase;
+	position: absolute;
+	top: 5px;
+	right: 550px;
 }
 footer
 {
@@ -74,7 +77,7 @@ footer
 	text-align: right;
 	background: url(pic9.jpg) repeat center;
 	position: absolute;
-	bottom: 20px;
+	bottom: 0px;
 	right: 530px;
 }
 ul
@@ -92,4 +95,10 @@ ul
 li
 {
 	padding: 15px;
+}
+video
+{
+	position: absolute;
+	bottom: 10px;
+	right: 430px;
 }
