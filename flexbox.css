@@ -3,6 +3,11 @@
 	display: flex;
 	 
 }*/
+body
+{
+	 width: 900px;
+    margin: auto;
+}
 .element-1 
 {
 	background: url("scubatocat-mini.png")  no-repeat center ;
@@ -83,7 +88,6 @@ footer
 ul
 {	
 	display: inline-flex;
-	justify-content: space-between;
 	font-family: sprat;
 	font-size: x-large;
 	text-transform: uppercase;
@@ -101,4 +105,54 @@ video
 	position: absolute;
 	bottom: 10px;
 	right: 430px;
+}
+@media all and (max-width: 1024px)
+{
+    body
+    {
+        width: auto;
+    }
+    video
+    {
+    	right: 250px;
+    }
+    ul
+    {
+    	font-size: medium;
+    	text-underline-position: top-left;
+    }
+    .element-1
+    {
+    	display: none;
+    }
+    .element-2
+    {
+    	display: none;
+    }
+    .element-3
+    {
+    	display: none;
+    }
+    .Elément
+    {
+    	display: none;
+    }
+    #logo img
+    {
+    	float: left;
+    	width: 50px;
+    }
+    h1
+    {
+    	width: auto;
+    	padding: auto;
+    	font-size: large;
+    	text-align: left;
+    }
+    p
+    {
+    	width: auto;
+    	margin: auto;
+    }
+    
 }
