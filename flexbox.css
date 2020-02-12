@@ -11,7 +11,7 @@ body
 .element-1 
 {
 	background: url("scubatocat-mini.png")  no-repeat center ;
-	padding: 120px;
+	padding: 9%;
 	position: fixed;
 	right: 50px;
 	bottom: 20px;
@@ -19,7 +19,7 @@ body
 .element-2
 {
 	background: url("inspectocat-mini.jpg") no-repeat center;
-	padding: 120px;
+	padding: 9%;
 	position: absolute;
 	right: 50px;
 	bottom: 280px;
@@ -27,15 +27,15 @@ body
 .element-3
 {
 	background: url("foundingfather_v2.png") no-repeat center;
-	padding: 120px;
+	padding: 9%;
 	position: absolute;
 	left: 50px;
-	bottom: 300px;
+	bottom: 270px;
 }
 .Elément
 {
 	background: url("plumber-mini.jpg") no-repeat center;
-	padding: 120px;
+	padding: 9%;
 	position: absolute;
 	left:50px;
 	bottom:20px;	
@@ -46,10 +46,10 @@ p
 	color:maroon;
 	text-align: center;
 	box-shadow: 6px 6px 6px;
-	width: 350px;
+	width: 35%;
 	position: absolute;
-	left: 450px;
-	top: 50px;
+	left: 31%;
+	top: 15%;
 	}
 
 @font-face
@@ -63,8 +63,8 @@ p
 }
 #logo img
 {
-    width: 70px;
-    height: 60px;
+    width: 10%;
+    height: 10%;
     
 }
 h1
@@ -73,8 +73,8 @@ h1
 	text-align:center;
 	text-transform : uppercase;
 	position: absolute;
-	top: 5px;
-	right: 550px;
+	top: 0px;
+	left: 40%; 
 }
 footer
 {
@@ -83,7 +83,7 @@ footer
 	background: url(pic9.jpg) repeat center;
 	position: absolute;
 	bottom: 0px;
-	right: 530px;
+	right: 5%;
 }
 ul
 {	
@@ -93,8 +93,8 @@ ul
 	text-transform: uppercase;
 	list-style-type: none;
 	position: absolute;
-	right: 50px;
-	top: 10px;
+	right: 10%;
+	top: 0%;
 	}
 li
 {
@@ -106,7 +106,7 @@ video
 	bottom: 10px;
 	right: 430px;
 }
-@media all and (max-width: 1024px)
+@media all and (max-width: 900px)
 {
     body
     {
@@ -114,33 +114,27 @@ video
     }
     video
     {
-    	right: 250px;
+    	width: 90%;
+    	right: 5%;
+    	bottom: 5%;
     }
     ul
     {
     	font-size: medium;
-    	text-underline-position: top-left;
+    	
     }
-    .element-1
+    .element-1,.element-2,.element-3, .Elément
     {
-    	display: none;
+    	
+    	opacity: 50%;
+    	
     }
-    .element-2
-    {
-    	display: none;
-    }
-    .element-3
-    {
-    	display: none;
-    }
-    .Elément
-    {
-    	display: none;
-    }
+    
+    
     #logo img
     {
-    	float: left;
-    	width: 50px;
+    	z-index:1;  
+    	width: 10%;
     }
     h1
     {
@@ -151,8 +145,17 @@ video
     }
     p
     {
+    	position: absolute;
+    	left:0%;
+    	top: 20%;
     	width: auto;
     	margin: auto;
+    	font-size: small;
+    }
+    footer
+    {
+    	font-size: small;
+    	background-image : linear-gradient( to bottom, hsl(0, 80%, 70%), #BADA55 )
     }
     
 }
